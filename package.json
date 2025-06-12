@@ -1,10 +1,9 @@
 {
   "name": "session-code-generator",
   "version": "1.0.0",
-"main": "index.js",
-"scripts": {
-  "start": "node index.js"
-},
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.6.0",
