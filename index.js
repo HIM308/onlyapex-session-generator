@@ -31,7 +31,9 @@ app.post('/generate', async (req, res) => {
 
     res.send('Code generated, check terminal.');
 });
-
+app.get('/', (req, res) => {
+  res.send('OnlyApex Session Generator is Live ✅');
+});
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
 });
